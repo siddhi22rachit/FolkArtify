@@ -1,0 +1,41 @@
+.panel {
+  background-color: #7fddc1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.panel-item {
+ margin: 0%;
+ padding: 0%;
+}
+
+.panel-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.panel-description {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1280px){
+  .panel-title {
+    font-size: 0.8rem; /* 20px */
+    margin-bottom: 0 px;
+    padding-bottom: 0 px;
+}
+
+.panel-description {
+   display: none;
+}
+
+.foot-panel2 {
+    display: none;
+}
+}

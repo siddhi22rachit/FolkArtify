@@ -1,0 +1,31 @@
+.foot-panel3{
+  background-color:#222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 2.73rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.foot-panel4{
+  background-color: #0f1111;
+  color: white;
+  height: 4.25rem;
+ font-size: 0.7rem;
+  text-align: center;
+}
+.pages{
+  padding-top: 25px;
+}
+.copyright{
+  padding-top: 5px;
+}
+@media screen and (max-width: 700px){
+
+}
