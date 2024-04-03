@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.centered {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.image-container img {
+   /* Adjust the width to fit four images in a row */
+  height: auto; /* Maintain aspect ratio */
+  margin: 15px; /* Adjust the spacing around images */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}

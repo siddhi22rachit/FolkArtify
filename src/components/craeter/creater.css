@@ -1,0 +1,54 @@
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.image-container1 {
+  flex: 1;
+  background-size: cover;
+  margin: 0%;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 50%;
+}
+
+.symbol {
+  list-style-type: disclosure-closed;/* Use disc for filled circles, circle for unfilled circles, square for squares, etc. */
+  /* You can also use custom icons with 'list-style-image' or 'list-style' property */
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.content-container {
+  flex: 1;
+}
+
+.content-container h2 {
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
+.content-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.content-container li {
+  margin: 20px;
+ 
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .feature-section {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './features.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Features =() =>{
   return (

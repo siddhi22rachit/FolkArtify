@@ -1,0 +1,40 @@
+.popular-item {
+  display: flex;
+  gap: 20px; /* Add space between items */
+}
+
+.item {
+  flex: 0 0 auto; /* Prevent items from shrinking or growing */
+  width: 350px; /* Set a fixed width for each item */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+  margin-top: 50px;
+}
+
+.item img {
+  width: 70%; /* Ensure the image takes up the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+
+}
+
+
+.item p {
+  margin: 6px 0; /* Adjust the margin around the product name */
+}
+
+.description li {
+    list-style-type: none;
+    text-decoration: none !important;
+    color: #333;
+    font-size: 18px;
+    position: relative;
+  
+}
+
+
+.item:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
