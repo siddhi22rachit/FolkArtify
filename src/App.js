@@ -1,11 +1,10 @@
 import './App.css';
+import ReactDOM from 'react-dom';
 import Navbar from './components/navbar/navbar';
-import Header from './components/header/header';
 import Footer from './components/footer/footer' 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Shop from './pages/Shop';
 import ShopCategory from './pages/ShopCategory';
-
 function App() {
   return (
     <div>
@@ -18,7 +17,6 @@ function App() {
           <Route path='/Marble Handicrafts' element={<ShopCategory category="Marble Handicrafts" />} />
           <Route path='/Tableware' element={<ShopCategory category="Tableware" />} />
         </Routes>
-       
         <Footer/>
       </BrowserRouter>
     </div>

@@ -1,16 +1,15 @@
 import React from 'react';
 import './header.css';
+import ImageSlider from '../slider/ImageSlider';
 
-const Header = () =>  {
+const Header = () => {
+
+
   return (
     <div className="hero-section">
-        
-        <div className="hero-msg">
-            <p> You can also shop on FolkArtify India for millions of products with fast local
-                delivery. </p>
-        </div>
+      <ImageSlider />
     </div>
-  );
+  )
 }
 
 export default Header;
